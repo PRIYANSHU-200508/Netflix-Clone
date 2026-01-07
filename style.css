@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(13, 13, 13);
+}
+.main {
+  background-image: url(assets/imges/bg.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  width: 100vw;
+  position: relative;
+}
+.main .box {
+  height: 80vh;
+  width: 100vw;
+  background-color: black;
+  opacity: 0.75;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+nav {
+  max-width: 60vw;
+  margin: auto;
+  height: 72px;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+}
+nav .lang {
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+  padding: 8px 12px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+nav .sign {
+  background-color: rgb(247, 59, 59);
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 5px;
+  margin-left: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.box1 {
+  position: relative;
+  z-index: 2;
+  height: calc(100% - 72px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
+  /* max-width: 45vw;  */
+  margin: auto;
+}
+.box1 span:nth-child(1) {
+  font-size: 48px;
+  font-weight: 900;
+  max-width: 45vw;
+}
+
+.box1 span:nth-child(2) {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.box1 span:nth-child(3) {
+  font-size: 15px;
+  margin-top: 15px;
+  color: #ddd;
+}
+.pk {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 20px;
+  gap: 10px;
+}
+.pk button {
+  background-color: rgb(247, 59, 59);
+  color: white;
+  border: none;
+  padding: 11px 28px;
+  font-weight: bold;
+  cursor: pointer;
+
+  border-radius: 5px;
+  margin-left: 10px;
+}
+.email {
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  padding: 11px 38px 11px 2px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.sepration {
+  height: 7px;
+  background-color: rgb(41, 41, 41);
+}
+.first {
+  height: fit-content;
+  width: 100vw;
+  padding: 20px; 
+}
+.heading {
+  background-color: transparent;
+  padding: 20px 10px;
+  font-size: 30px;
+  font-family: sans-serif;
+  color: rgb(188, 180, 180);
+  max-width: 80vw;
+  margin: auto;
+}
+.boxes {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  max-width: 80vw;
+  margin: auto; 
+}
+
+.boxes h3 {
+  font-size: 20px;
+  font-family: sans-serif;
+  padding: 10px 5px;
+  color: white;
+}
+.b {
+  background-color: rgba(80, 47, 85, 0.44);
+  border-radius: 25px;
+  padding: 15px 15px 5px 15px;
+  min-height: 45vh;
+  max-width: 18vw;
+  margin: auto;
+}
+p {
+  padding-top: 20px;
+  color: rgb(188, 180, 180);
+}.svg{
+  display: flex;
+  justify-content: end;
+  padding-top: 80px;
+}
