@@ -153,8 +153,77 @@ nav .sign {
 p {
   padding-top: 20px;
   color: rgb(188, 180, 180);
-}.svg{
+}
+.svg{
   display: flex;
   justify-content: end;
   padding-top: 80px;
+} 
+.faq h3 {
+  padding: 20px 10px;
+  max-width: 80vw;
+  margin: auto;
+  font-size: 30px;
+  font-family: sans-serif;
+  color: rgb(188, 180, 180);
 }
+.faqbox {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  background-color: rgb(55, 55, 55);
+  color: white;
+  padding: 10px 10px;
+  max-width: 80vw;
+  margin: auto;
+  border: none;
+  margin-top: 10px;
+}
+.faq {
+  margin-bottom: 20px;
+}
+.faqbox span {
+  font-size: larger;
+  font-family: sans-serif;
+}
+.faqbox:hover {
+  background-color: rgb(32, 32, 32);
+  cursor: pointer;
+  transition: margin-right 2s ease-in-out 0.5s;
+}
+.faq h4 {
+  padding: 80px 10px 20px 10px;
+  max-width: 40vw;
+  margin: auto;
+  font-size: 15px;
+  font-family: sans-serif;
+  color: white;
+  text-align: center;
+}
+.pk1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+  margin: 5px 20px;
+}
+.pk1 button {
+  background-color: rgb(247, 59, 59);
+  color: white;
+  border: none;
+  padding: 11px 28px;
+  font-weight: bold;
+  cursor: pointer;
+
+  border-radius: 5px;
+  margin-left: 10px;
+}
+.email {
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  padding: 11px 78px 11px 5px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+  
