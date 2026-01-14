@@ -226,4 +226,44 @@ p {
   border-radius: 5px;
   font-weight: bold;
 }
-  
+h2{
+  padding: 20px  ;
+  max-width: 80vw;
+  margin: auto;
+  font-size: 12px;
+  font-family: sans-serif;
+  color: rgb(251, 250, 250); 
+}
+.footer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  max-width: 70vw;
+  margin: auto;
+  padding-top: 20px;
+}
+
+.footeritem {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footeritem a {
+  color: white; 
+  font-size: 12px;
+}
+.lang {
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+  padding: 8px 22px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 50px;
+}
+.last {
+  margin : 30px 0px 50px 0px;
+  padding-top: 20px;
+  color: rgb(255, 255, 255);
+}
